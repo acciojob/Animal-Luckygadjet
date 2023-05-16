@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+
+.animal-photos {
+    text-align: center;
+    color: white; /* Use a colon (:) instead of a semicolon (;) */
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 50px; /* Use a hyphen (-) instead of a space ( ) between border and radius */
+  }
+.animal-photos img{
+	margin:10px;
+	display:inline-block;
+	border-radius:20px;
+	width:calc(33.33% - 20px);
+    max-width: 250px;
+}
